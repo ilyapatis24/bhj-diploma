@@ -2,6 +2,7 @@
 
 class Transaction extends Entity {
 
+    static URL = '/transaction';
     static list( data, callback = f => f ) {
         super.list( Object.assign({ url: '/transaction' }, data ), callback );
     };

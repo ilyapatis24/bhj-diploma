@@ -1,7 +1,7 @@
 'use strict';
 
 class Entity {
-
+    static URL = '';
     static list( URL, data, callback = f => f ) {
         createRequest({ data: Object.assign({ url: URL, method: 'GET' }, data ) }, callback);
     };

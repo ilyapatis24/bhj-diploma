@@ -12,6 +12,20 @@
       "email": "ilyapatis24@mail.ru",
       "password": "1",
       "id": "xd7n450m0rap732",
+      "isAuthorized": false
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": "2kkuda3jsm15frvmy",
+      "isAuthorized": true
+    },
+    {
+      "name": "Борис",
+      "email": "boris@mail.ru",
+      "password": "1234",
+      "id": "2kkudaajom15izbx9",
       "isAuthorized": true
     }
   ],
@@ -201,6 +215,14 @@
       "sum": 3000,
       "account_id": "xd7n4qsm0raq1xa",
       "created_at": "2024-09-06T22:37:04.098Z"
+    },
+    {
+      "id": "2kkuda8dom15idq5o",
+      "type": "EXPENSE",
+      "name": "еда",
+      "sum": 200,
+      "account_id": "xd7n6fcm0rapfr2",
+      "created_at": "2024-09-16T21:19:56.843Z"
     }
   ]
 }

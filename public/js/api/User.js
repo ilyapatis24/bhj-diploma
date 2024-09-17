@@ -1,9 +1,9 @@
 'use strict';
 
 class User extends Entity {
-
-    static setCurrent( user ) {
-        localStorage.setItem('user', JSON.stringify( user ));
+    static URL = '/user';
+    static setCurrent(user) {
+        localStorage.setItem('user', JSON.stringify(user));
     };
 
     static unsetCurrent() {
@@ -11,7 +11,7 @@ class User extends Entity {
     };
 
     static current() {
-        return JSON.parse( localStorage.getItem('user') );
+        return JSON.parse(localStorage.getItem('user')) || undefined;
     };
 
     static isAuthorized( data, callback = f => f ) {

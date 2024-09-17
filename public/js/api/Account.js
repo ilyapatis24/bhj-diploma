@@ -1,7 +1,7 @@
 'use strict';
 
 class Account extends Entity {
-
+    static URL = '/account';
     static list( data, callback = f => f ) {
         super.list( Object.assign({ url: '/account' }, data ), callback );
     };
